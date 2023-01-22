@@ -10,7 +10,7 @@ const {list, onChange}= props;
 
            { list.map((option)=>{
 
-              <option value={option} key={option}>{option}</option>
+               return <option value={option} key={option}>{option}</option>;
 
            })}
     </select>
